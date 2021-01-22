@@ -1,0 +1,7 @@
+ASM files - https://stackoverflow.com/questions/34098596/assembly-files-difference-between-a-s-asm
+
+Intel x64 ASM - https://software.intel.com/content/www/us/en/develop/articles/introduction-to-x64-assembly.html
+
+libft-asm PDF - https://trello-attachments.s3.amazonaws.com/5b838d66f253fc021a40201e/5d5261f17bd514395ea87f6d/4bc77edb585dc9ce73e914824b4d271f/libft-asm.en.pdf
+
+
