@@ -11,3 +11,5 @@ Tut + some tips - https://cs.lmu.edu/~ray/notes/nasmtutorial/
 
 nasm docs - https://www.nasm.us/doc/
 x86_64 nasm asm cheat sheet - https://www.cs.uaf.edu/2017/fall/cs301/reference/x86_64.html
+
+Basic use of immediates vs. square brackets - https://stackoverflow.com/questions/10362511/basic-use-of-immediates-vs-square-brackets-in-yasm-nasm-x86-assembly
