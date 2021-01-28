@@ -2,9 +2,9 @@ global _main					; directives
 
 section .text
 _main:
-	mov		rax, 0x02000004		; system call for write()
-	mov		rdi, 1				; file handle 1 is stdout
-	mov		rsi, message		; move address of string to rsi register
+	mov		rax, 0x02000004		; system call for write() ;; rax: values returned from functions
+	mov		rdi, 1				; file handle 1 is stdout ;; rdi: holds argv 0	;; ie. holds 1 to pass to write()
+	mov		rsi, message		; move address of string to rsi register ;; rsi: holds argv 1  ;; ie. holds message to pass to write()
 	mov		rdx, 13				; nr of bytes in message
 	syscall						; os calls what's in rax
 	mov		rax, 0x02000001		; sys call for exit()
